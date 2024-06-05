@@ -1,103 +1,99 @@
-.project{
-    margin:10px;
-    display: flex;
-    align-items: center;
-    background-color: #EEEEEE;
-}
-body{
-    background-color: #EEEEEE;
-    margin: 10px;
-}
-a{
-    text-decoration: none;
+.top{
+    border: 2px solid;
+    background-color: orange;
+    height: auto;
+    width: auto;
+    text-align: center;
 }
 .text_box{
+    width: 500px;
+    box-sizing: border-box;
+
+}
+.outer_box :hover{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 10px;
+    background-color: rgba(118, 117, 117, 0.744);
+}
+.outer_box :not(:hover){
+    padding-top: 25px;
+    padding-bottom: 25px;
     margin:10px;
-    background-color: #dbdbdb;
+    background-color: #EEEEEE;
 }
-
-h2{
-    color: rgb(76, 76, 76);
-}
-.back_button {
-    width: 200px; 
-    height: 75px; 
-    background-color:orange; 
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    border-radius: 5px;
-    margin: 20px auto; 
-    text-align: center; 
-    transition: background-color 0.3s, color 0.3s; 
-}
-
-.back_button h2 {
-    color: white;
-    margin: 0;
-}
-
-.back_button:hover {
-    background-color: darkorange;
-    cursor: pointer;
-}
-
-.back_button a {
-    color: white; 
-    text-decoration: none;
-}
-.box :not(:hover){
-    margin: 5%;
-    height:200px;
-    justify-content: center;
+.boxes{
+    border:2px solid;
     background-color: orange;
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
     text-align: center;
-    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
 }
-.box :hover{
-    margin: 5%;
-    height:200px;
-    justify-content: center;
-    background-color: rgb(255, 196, 87);
-    align-content: center;
+.inner_box :not(:hover){
+    background-color: #373A40;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 150px;
     text-align: center;
-    border-radius: 5px;
+    color:#9ca5b5;
+    left: 50px;
+    box-sizing: border-box;
+
+
+
+}
+.inner_box :hover{
+    background-color: #686D76;
+    display: inline-block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    width: 150px;
+    color: #373A40;
+    left: 50px;
+
 }
 
 
-.header{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
-.project-name :not(:hover){
-    background-color: orange;
-    width: 200px;
-    margin-left: 10px;
-    margin-right: 10px;
-    height: 75px;
-    text-align: center;
-    align-content: center;
-    border-radius: 5px;
 
-}
-.project-name :hover{
-    background-color: rgb(206, 134, 0);
-    width: 200px;
-    margin-left: 10px;
-    margin-right: 10px;
-    height: 75px;
-    text-align: center;
-    align-content: center;
-    border-radius: 5px;
+.container{
+    background-color: brown;
+    height: 100vh;
 }
 
-.project-description {
-    flex:1;
-    text-align: left;
-    background-color: #cdcdcd;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 5px;
+p{
+    float: left;
+}
+
+#hehe{
+    background-color: yellow;
+}
+
+#hehe:hover{
+    display: None;
+}
+
+body{
+    background-color: #EEEEEE;
+    margin: 15px;
+    /*
+    background-image: url(image/fuckyou.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+    */
+}
+.proj{
+    background-color: blue;
+    border: 2px solid;
+    height: auto;
+    max-width: 45%;
+    min-width: 20%;
+    float: left;
 }
