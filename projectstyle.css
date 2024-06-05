@@ -1,0 +1,52 @@
+body{
+    background-color: #cdcdcd;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    text-align: center;
+}
+.image{
+
+    background-color: #b5b5b5;
+
+}
+.image_container{
+    display: flex;
+}
+.desc{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #b5b5b5;
+}
+
+
+
+.back_button {
+    width: 200px; 
+    height: 75px; 
+    background-color:orange; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 5px;
+    margin: 20px auto; 
+    text-align: center; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.back_button h2 {
+    color: white;
+    margin: 0;
+}
+
+.back_button:hover {
+    background-color: darkorange;
+    cursor: pointer;
+}
+
+.back_button a {
+    color: white; 
+    text-decoration: none;
+}
