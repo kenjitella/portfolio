@@ -10,21 +10,26 @@
         <h1>Bike Crank Project</h1>
     </div>
     <hr>
-    <div class="image_container">
-        <div class="image">
-            <img src="images/initial design CAD.png" alt="Initial CAD design" width="450">
-        </div>
-        <div class="desc">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat nihil, veritatis nam soluta illo dolore laudantium adipisci, aperiam perspiciatis, ut earum hic perferendis omnis dolor optio in totam odit reprehenderit?</p>
-        </div>
+    <div class="text_box">
+        <p>
+            The Bike Crank Projects is a team project that was part of the Mechanics: 3D design class. 
+            The goal of this project was to create a bike crank of a certain length that would break at a certain load within a margin in the middle of the part. 
+            The load would also be offset to the side to create a moment about the axis that runs the length of the linkage. (see testing gif for refrence)
+            A part that broke at the connection would be counted as a failure. We would also be graded on the weight of the bike crank. 
+        </p>
     </div>
-    <br>
     <div class="image_container">
         <div class="image">
-            <img src="images/initial design FEA.png" alt="Initial FEA design" width="450">
+            <img src="images/initial design CAD.png" alt="Initial CAD design" height="200">
+        </div>
+        <div class="image">
+            <img src="images/initial design FEA.png" alt="Initial FEA design" height="200">
         </div>
         <div class="desc">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat nihil, veritatis nam soluta illo dolore laudantium adipisci, aperiam perspiciatis, ut earum hic perferendis omnis dolor optio in totam odit reprehenderit?</p>
+            <p>This is our initial desing, our though process here was to create a crank with two squares (the conneciton points) and an area in the middle with less cross sectional area
+                to create a stress concentration. Using FEA we tuned the cross section at the middle such that the FEA would be 1. We were also given 1/8" thick acylic only to make this part
+                and by our hand calculations and FEA, to create a crank of reasonable size, the part would have to be 1/4" thick. We used JB weld epoxy to gule 2 1/8" thick parts together to achived our desiered part. 
+            </p>
         </div>
     </div>
     <br>
@@ -33,31 +38,35 @@
             <img src="images/initial desin failure.png" alt="Initial design failure" width="450">
         </div>
         <div class="desc">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat nihil, veritatis nam soluta illo dolore laudantium adipisci, aperiam perspiciatis, ut earum hic perferendis omnis dolor optio in totam odit reprehenderit?</p>
+            Our initial design failed because the failure point was not in the middle. We believe this happened because the tolerance we created between at the connection point was too large. 
+            The space between the square rod and our crank was slightly too big which led to the corners of the square rod resting on the flat part of the square cut out creating a stress concentration.
+             This was not forseen in the FEA because in solidworks FEA, the entire face on which the force is applied is selected and it is not possible to  
+            for our final design we increased the radius around the square cutout at the connection and also decreased the tolerance.
         </div>
     </div>
     <div class="image_container">
         <div class="image">
-            <img src="images/final design.png" alt="Final Design" width="450">
+            <img src="images/final design.png" alt="Final Design" height="200">
+        </div>
+        <div class="image">
+            <img src="images/final design cad.png" alt="Final CAD design" height="200">
         </div>
         <div class="desc">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat nihil, veritatis nam soluta illo dolore laudantium adipisci, aperiam perspiciatis, ut earum hic perferendis omnis dolor optio in totam odit reprehenderit?</p>
+            <p>This is our final desing, there is material around the connections so that the areas of highest stress dosent occour at the connection point.
+                We also had some consistency issues due to the way that the glue was applied not being the same every time (air bubbles, cure time, not exact same position)
+                so we developed a procedure that we would follow every time so that force that the crank would break at would be the same every time.  </p>
         </div>
     </div>
+    <br>
     <div class="image_container">
         <div class="image">
-            <img src="images/final design cad.png" alt="Final CAD design" width="450">
+            <img src="images/final design failure.png" alt="Final design failure" height="450">
         </div>
-        <div class="desc">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat nihil, veritatis nam soluta illo dolore laudantium adipisci, aperiam perspiciatis, ut earum hic perferendis omnis dolor optio in totam odit reprehenderit?</p>
-        </div>
-    </div>
-    <div class="image_container">
         <div class="image">
-            <img src="images/final design failure.png" alt="Final design failure" width="450">
+            <img src="images/testingpic.png" alt="pic of testing" height="450" >
         </div>
         <div class="desc">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat nihil, veritatis nam soluta illo dolore laudantium adipisci, aperiam perspiciatis, ut earum hic perferendis omnis dolor optio in totam odit reprehenderit?</p>
+            This is a pictue of where our final graded crank broke and a gif of us testing our crank.
         </div>
     </div>
     <a href="projects.html">
